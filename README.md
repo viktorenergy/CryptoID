@@ -7,8 +7,8 @@ At the same time, the string is being converted back to integer.
 Easy to hack, don't use for secret info.  
   
 Example:  
-``string encryptedResult = CryptoIdentity.Encript(394234);  
-// encryptedResult equals "c7mvop"  
-int decryptedValue = CryptoIdentity.Decrypt(encryptedResult);  
-// decryptedValue is 394234 again  ``
+``string encryptedResult = CryptoIdentity.Encript(394234);``  
+``// encryptedResult equals "c7mvop"``  
+``int decryptedValue = CryptoIdentity.Decrypt(encryptedResult);``  
+``// decryptedValue is 394234 again  ``
 
